@@ -1,3 +1,13 @@
+import { FaReact } from "react-icons/fa6";
+import { FaNodeJs } from "react-icons/fa6";
+import { FaSchool } from "react-icons/fa6";
+import { FaDumbbell } from "react-icons/fa6";
+import { FaWordpressSimple } from "react-icons/fa6";
+import { FaStackOverflow } from "react-icons/fa6";
+import { FaCalendarDay } from "react-icons/fa6";
+import { FaChartPie } from "react-icons/fa6";
+import { FaBuromobelexperte } from "react-icons/fa6";
+
 const HomeContainer2 = () => {
   return (
     <>
@@ -9,61 +19,71 @@ const HomeContainer2 = () => {
         <div className="home-info">
           <div className="home-card">
             <div className="left">
-              <img src="https://source.unsplash.com/3tYZjGSBwbk" alt="" />
+              <h2 className="section-title">Junior web developer.</h2>
+
+              <div className="flex-container">
+                <FaReact size={28} />
+                <p>Graduate of IronHack full-time web development boot camp.</p>
+              </div>
+
+              <div className="flex-container">
+                <FaNodeJs size={28} />
+                <p>
+                  Seeking roles as a junior front-end or back-end developer.
+                </p>
+              </div>
+
+              <div className="flex-container">
+                <FaSchool size={28} />
+                <p>
+                  Previous experience as a teacher, emphasizing problem-solving
+                  and communication skills.
+                </p>
+              </div>
+
+              <div className="flex-container">
+                <FaDumbbell size={28} />
+                <p>
+                  CrossFit coaching background, instilling discipline and
+                  teamwork.
+                </p>
+              </div>
+
+              <div className="flex-container">
+                <FaWordpressSimple size={28} />
+                <p>
+                  Familiarity with WordPress development and user-friendly
+                  interfaces.
+                </p>
+              </div>
+
+              <div className="flex-container">
+                <FaStackOverflow size={28} />
+                <p>
+                  Eager to contribute diverse experiences to the development
+                  field.
+                </p>
+              </div>
+
+              <div className="flex-container">
+                <FaCalendarDay size={28} />
+                <p>
+                  Dedication, enthusiasm, and commitment to continuous learning.
+                </p>
+              </div>
+
+              <div className="flex-container">
+                <FaChartPie size={28} />
+                <p>Well-rounded and adaptable professional.</p>
+              </div>
+
+              <div className="flex-container">
+                <FaBuromobelexperte size={28} />
+                <p>Open to collaboration on exciting digital projects.</p>
+              </div>
             </div>
             <div className="right">
-              <ul>
-                <li>Junior web developer.</li>
-                <li>
-                  <h4>
-                    Graduate of IronHack full-time web development boot camp.
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    {" "}
-                    Seeking roles as a junior front-end or back-end developer.
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    {" "}
-                    Previous experience as a teacher, emphasizing
-                    problem-solving and communication skills.
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    CrossFit coaching background, instilling discipline and
-                    teamwork.
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    Familiarity with WordPress development and user-friendly
-                    interfaces.
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    Eager to contribute diverse experiences to the development
-                    field.
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    {" "}
-                    Dedication, enthusiasm, and commitment to continuous
-                    learning.
-                  </h4>
-                </li>
-                <li>
-                  <h4>Well-rounded and adaptable professional.</h4>
-                </li>
-                <li>
-                  <h4>Open to collaboration on exciting digital projects.</h4>
-                </li>
-              </ul>
+              <img src="https://source.unsplash.com/3tYZjGSBwbk" alt="" />
             </div>
           </div>
         </div>

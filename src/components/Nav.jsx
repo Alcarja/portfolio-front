@@ -6,6 +6,9 @@ const Nav = () => {
     <>
       <ul className="nav">
         <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
           <Link
             to="https://www.linkedin.com/in/jaime-alcaraz-castillo/"
             target="_blank"

@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { HiMiniCodeBracket } from "react-icons/hi2";
+
 const HomeContainer4 = ({ projects }) => {
   return (
     <>
@@ -10,22 +13,30 @@ const HomeContainer4 = ({ projects }) => {
         <div className="project-cards">
           {projects.map((oneProject) => {
             return (
-              <div className="individual-project" key={oneProject._id}>
-                <div className="left">
-                  <h2>{oneProject.title}</h2>
-                  <img src={oneProject.image} />
+              <Link to={`projects/${oneProject._id}`} key={oneProject._id}>
+                <div className="individual-project">
+                  <div className="left">
+                    <h2>{oneProject.title}</h2>
+                    <div className="flex-container-2">
+                      <HiMiniCodeBracket size={43} color={"black"} />
+                      <h3>{oneProject.type}</h3>
+                    </div>
+                    <p>{oneProject.description}</p>
+                    <ul>
+                      <div className="technologies">
+                        {oneProject.technologies.map((technology, index) => (
+                          <li key={index}>
+                            <p>{technology}</p>
+                          </li>
+                        ))}
+                      </div>
+                    </ul>
+                  </div>
+                  <div className="right">
+                    <img src={oneProject.image} />
+                  </div>
                 </div>
-                <div className="right">
-                  <h4>{oneProject.description}</h4>
-                  <ul>
-                    {oneProject.technologies.map((technology, index) => (
-                      <li key={index}>
-                        <p>{technology}</p>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+              </Link>
             );
           })}
         </div>
