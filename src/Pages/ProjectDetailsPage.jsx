@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { HiMiniCodeBracket } from "react-icons/hi2";
 
 const ProjectDetailsPage = () => {
   const { projectId } = useParams();
@@ -26,12 +27,31 @@ const ProjectDetailsPage = () => {
 
   return (
     <>
-      <h1>
-        OneProject: <h2>{project.title}</h2>{" "}
-      </h1>
-      <img src={project.image} className="image" />
-      <h2>{project.description}</h2>
-      <h2>{project.technologies}</h2>
+      <div className="project-title">
+        <h2>{project.title}</h2>
+        <div className="flex-container-3">
+          <HiMiniCodeBracket size={43} color={"black"} />
+          <p>{project.type}</p>
+        </div>
+      </div>
+
+      <div className="project-description">
+        <div className="project-description-left">
+          <p>{project.description}</p>
+          <h5>Link to the app: {project.link}</h5>
+          <h5>Technologies used:</h5>
+          <ul>
+            {project.technologies.map((technology, index) => (
+              <li key={index}>
+                <p>{technology}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="project-description-right">
+          <img src={project.image} className="image" />
+        </div>
+      </div>
     </>
   );
 };

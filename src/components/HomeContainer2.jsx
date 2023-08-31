@@ -19,7 +19,9 @@ const HomeContainer2 = () => {
         <div className="home-info">
           <div className="home-card">
             <div className="left">
-              <h2 className="section-title">Junior web developer.</h2>
+              <h2 className="section-title">
+                Jaime Alcaraz - Junior web developer.
+              </h2>
 
               <div className="flex-container">
                 <FaReact size={28} />

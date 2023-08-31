@@ -47,8 +47,8 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-  font-size: 7rem;
-  font-weight: 700;
+  font-size: 12rem;
+  font-weight: 900;
   color: #010100;
   /* color: white; */
   line-height: 1;
@@ -86,20 +86,23 @@ p {
 /* NAV BAR */
 
 .nav {
-  gap: 1rem;
+  gap: 0.5rem;
   text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: right;
   align-items: center;
-  height: 10vh;
-  /* background-color: tomato; */
+  height: 8vh;
+  background-color: #F6F6F7;
   position: sticky;
   top: 0px;
 }
 
 .nav li {
-  margin-right: 5rem;
+  margin-right: 4rem;
+  font-weight: 300;
+  font-size: 0.9rem;
+  text-transform: uppercase;
 }
 
 a {
@@ -116,10 +119,11 @@ a {
 
 /* BUTTON */
 .button {
-  padding: 1rem 2rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 1rem;
   background-color: #010100;
   color: white;
+  text-transform: uppercase;
   /* border: 1px solid #FC6400; */
 }
 
@@ -146,14 +150,13 @@ a {
 .home-container-1 {
   display: flex;
   height: 85vh;
-  text-align: center;
+  text-align: left;
   align-items: center;
-  margin: 0 8rem 8rem 8rem;
+  margin: 1rem 0 3rem 3rem;
   /* background-color: white; */
 }
 
 /* HOME CONTAINER 2 */
-
 .home-container-2 {
   height: auto;
   /* background-color: blue; */
@@ -225,7 +228,7 @@ a {
 .individual-project {
   border: solid 1px #010100;
   width: 85vw;
-  margin: 5rem auto 2rem auto;
+  margin: 5rem auto 7rem auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -283,9 +286,66 @@ a {
 
 
 /* ONE PROJECT */
+.project-title {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-title h2 {
+  font-size: 10rem;
+  font-weight: 900;
+  margin-left: 3rem;
+  margin-bottom: 0;
+  line-height: 0.5;
+}
+
+.project-title p {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.flex-container-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 4rem;
+  gap: 0.5rem;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.project-description-left {
+  padding-left: 3rem;
+  padding-right: 15rem;
+}
+
+.project-description-left h5 {
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+.project-description-left li {
+  list-style-type: disc;
+  margin-left: 3rem;
+}
+
+
+.project-description-right {
+  margin-right: 3rem;
+}
+
 .image {
   width: 500px;
-  height: 300px;
+  height: 500px;
 }
 
 
