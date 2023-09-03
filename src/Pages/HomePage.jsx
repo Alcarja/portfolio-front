@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
+import { API_URL } from "../config/config.index";
 import HomeContainer1 from "../components/HomeContainer1";
 import HomeContainer2 from "../components/HomeContainer2";
 import HomeContainer3 from "../components/HomeContainer3";
@@ -11,7 +12,8 @@ const HomePage = () => {
 
   const fetchProjects = async () => {
     try {
-      const response = await axios.get(`http://localhost:5005/api/projects`);
+      const response = await axios.get(`${API_URL}/api/projects`);
+      // const response = await axios.get(`http://localhost:5005/api/projects`);
       console.log(response.data);
       const parsedProjects = await response.data;
       setProjects(parsedProjects);

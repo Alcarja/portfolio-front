@@ -2,15 +2,17 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { HiMiniCodeBracket } from "react-icons/hi2";
+import { API_URL } from "../config/config.index";
 
 const ProjectDetailsPage = () => {
   const { projectId } = useParams();
-  const [project, setProject] = useState([]);
+  const [project, setProject] = useState(null);
 
   const fetchOneProject = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:5005/api/projects/${projectId}`
+        `${API_URL}/api/projects/${projectId}`
+        // `http://localhost:5005/api/projects/${projectId}`
       );
       if (response.status === 200) {
         const parsedProject = await response.data;
@@ -24,6 +26,10 @@ const ProjectDetailsPage = () => {
   useEffect(() => {
     fetchOneProject();
   }, []);
+
+  if (!project) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <>
