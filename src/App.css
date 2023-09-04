@@ -42,7 +42,7 @@ table {
 }
 
 /* GENERAL STYLES */
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, a, li {
   color: #010100;
 }
 
@@ -79,6 +79,10 @@ p {
   line-height: 2.1;
 }
 
+a, p {
+  text-decoration: none;
+}
+
 
 
 /* CSS */
@@ -87,6 +91,7 @@ p {
 
 /* MOBILE PHONE */
 @media only screen and (max-width: 600px)  { 
+
   /* BUTTON */
   .button {
     padding: 0.6rem 1.2rem;
@@ -113,6 +118,7 @@ p {
     font-size: 0.5rem;
     margin-right: 0;
     text-transform: uppercase;
+    text-decoration: none;
   }
 
   /* HOME CONTAINER 1 */
