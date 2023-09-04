@@ -112,6 +112,7 @@ p {
   .nav li {
     font-size: 0.5rem;
     margin-right: 0;
+    text-transform: uppercase;
   }
 
   /* HOME CONTAINER 1 */
@@ -128,7 +129,7 @@ p {
   }
 
   .home-container-1 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     letter-spacing: normal;
   }
 
