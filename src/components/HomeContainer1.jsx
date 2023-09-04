@@ -3,6 +3,7 @@ const HomeContainer1 = () => {
     <>
       <div className="home-container-1">
         <h1>LEARNING, GROWING, WEB DEVELOPING</h1>
+        {/* <h1>JAIME`S PORTFOLIO</h1> */}
       </div>
     </>
   );
