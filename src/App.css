@@ -97,10 +97,13 @@ a, p {
     padding: 0.6rem 1.2rem;
     border-radius: 1rem;
     background-color: #010100;
-    color: white;
     text-transform: uppercase;
-    /* border: 1px solid #FC6400; */
-}
+  }
+
+  .button a {
+    color: white;
+  }
+
 
   /* NAV */
   .nav {
@@ -383,17 +386,21 @@ a {
   padding: 0.8rem 1.5rem;
   border-radius: 1rem;
   background-color: #010100;
-  color: white;
   text-transform: uppercase;
   /* border: 1px solid #FC6400; */
 }
 
+.button a {
+  color: white;
+}
 
+.button a:hover {
+  color: #010100;
+}
 
 .button:hover {
   background-color: white;
   border: 1px solid #010100;
-  color: #010100;
   transition-duration: 0.2s;
 }
 
@@ -650,7 +657,6 @@ a {
   padding: 0.8rem 1.5rem;
   border-radius: 1rem;
   background-color: #010100;
-  color: white;
   text-transform: uppercase;
   /* border: 1px solid #FC6400; */
 }
@@ -658,8 +664,15 @@ a {
 .button:hover {
   background-color: white;
   border: 1px solid #010100;
-  color: #010100;
   transition-duration: 0.2s;
+}
+
+.button a {
+  color: white;
+}
+
+.button a:hover {
+  color: #010100;
 }
 
 /* HOMEPAGE */
