@@ -604,7 +604,7 @@ a {
 }
 
 /* LARGE SCREENS */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1600px) {
  /* NAV BAR */
 
  .nav {
@@ -648,8 +648,6 @@ a {
   text-transform: uppercase;
   /* border: 1px solid #FC6400; */
 }
-
-
 
 .button:hover {
   background-color: white;
@@ -884,6 +882,5 @@ a {
   width: 500px;
   height: 500px;
 }
-
 
 }
