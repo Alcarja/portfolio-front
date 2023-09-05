@@ -46,13 +46,11 @@ const ProjectDetailsPage = () => {
           <p>{project.description}</p>
           <h5>Link to the app: {project.link}</h5>
           <h5>Technologies used:</h5>
-          <ul>
+          <div className="technologies">
             {project.technologies.map((technology, index) => (
-              <li key={index}>
-                <p>{technology}</p>
-              </li>
+              <p key={index}>{technology}</p>
             ))}
-          </ul>
+          </div>
         </div>
         <div className="project-description-right">
           <img src={project.image} className="image" />

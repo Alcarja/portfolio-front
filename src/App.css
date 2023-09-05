@@ -603,15 +603,14 @@ a {
 }
 
 .project-description {
+  /* border: solid 1px black; */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 5rem;
-}
-
-.project-description-left {
-  padding-left: 3rem;
-  padding-right: 15rem;
+  justify-content: center;
+  width: 85vw;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  gap: 5rem;
 }
 
 .project-description-left h5 {
@@ -619,14 +618,10 @@ a {
   font-weight: 500;
 }
 
-.project-description-left li {
-  list-style-type: disc;
-  margin-left: 3rem;
-}
-
-
-.project-description-right {
-  margin-right: 3rem;
+.technologies {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
 }
 
 .image {
@@ -868,7 +863,7 @@ a {
 }
 
 .project-title h2 {
-  font-size: 14rem;
+  font-size: 15rem;
   font-weight: 900;
   margin-left: 3rem;
   margin-bottom: 0;
@@ -890,41 +885,34 @@ a {
 }
 
 .project-description {
+  /* border: solid 1px black; */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 5rem;
+  justify-content: center;
+  width: 85vw;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  gap: 6rem;
 }
 
 .project-description-left {
-  padding-left: 3rem;
-  padding-right: 15rem;
+  width: 50vw;
 }
 
 .project-description p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .project-description-left h5 {
-  padding-top: 1rem;
+  font-size: 1.5rem;
+  padding-top: 2rem;
   font-weight: 500;
-  font-size: 2rem;
-  padding-bottom: 2rem;
 }
 
-.project-description-left li {
-  list-style-type: disc;
-  margin-left: 3rem;
-}
-
-.project-description-left li p {
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-
-.project-description-right {
-  margin-right: 3rem;
+.technologies {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
 }
 
 .image {
