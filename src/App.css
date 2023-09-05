@@ -129,7 +129,7 @@ a, p {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    max-width: 100vw;
+    width: 100vw;
     height: 30vh;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -149,14 +149,14 @@ a, p {
   }
   .home-h2-1 {
     font-size: 3.5rem;
-    margin-left: 2rem;
+    margin-left: 3.5rem;
   }
 
   .home-h2-2 {
     -webkit-text-stroke: 2px #010100;
     color: #F6F6F7;
     font-size: 3.5rem;
-    margin-left: 2rem;
+    margin-left: 3.5rem;
   }
 
   .home-card {
@@ -168,10 +168,14 @@ a, p {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 1rem;
+    text-align: center;
   }
 
-  .home-card h2 {
-    margin-bottom: 1.5rem;
+  .home-card h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
   }
 
   .home-card img {
@@ -185,7 +189,9 @@ a, p {
 
   .section-title {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu';
+    margin-bottom: 0.3rem;
   }
 
   .flex-container {
@@ -211,7 +217,7 @@ a, p {
   }
 
   .images img {
-    width: 300px;
+    width: 200px;
     height: auto;
     background-color: #F6F6F7;
     border: solid 1px #010100;
@@ -219,7 +225,7 @@ a, p {
 
   /* HOME CONTAINER 4 */
   .individual-project {
-    border: solid 1px #010100;
+    /* border: solid 1px #010100; */
     width: 85vw;
     margin: 5rem auto 7rem auto;
     display: flex;
@@ -227,21 +233,24 @@ a, p {
     padding-top: 1rem;
     margin-top: 2rem;
   }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
   .individual-project img {
     width: 300px;
     height: auto;
-    align-self: center;
     padding-bottom: 2rem;
     padding-right: 1rem;
   }
   
   .individual-project h2 {
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-top: 2rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
   }
   
   .individual-project h3 {
@@ -250,7 +259,7 @@ a, p {
   
   .individual-project p {
     padding-top: 2rem;
-    padding-right: 2rem;
+    padding-right: 1.5rem;
     padding-left: 2rem;
     text-decoration: none;
   }
@@ -258,8 +267,7 @@ a, p {
   .flex-container-2 {
     display: flex;
     flex-direction: row;
-    align-items: left;
-    padding-left: 1rem;
+    align-items: center;
     gap: 0.5rem;
   }
   

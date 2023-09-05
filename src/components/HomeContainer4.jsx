@@ -18,7 +18,7 @@ const HomeContainer4 = ({ projects }) => {
                   <div className="left">
                     <h2>{oneProject.title}</h2>
                     <div className="flex-container-2">
-                      <HiMiniCodeBracket size={43} color={"black"} />
+                      <HiMiniCodeBracket size={35} color={"black"} />
                       <h3>{oneProject.type}</h3>
                     </div>
                     <p>{oneProject.description}</p>
