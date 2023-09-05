@@ -688,14 +688,6 @@ a {
 
 /* HOMEPAGE */
 
-/* SECTION-TITLE */
-.section-title {
-  margin: 0;
-  padding: 0;
-  font-size: 3.5rem;
-  font-weight: 900;
-}
-
 /* HOME CONTAINER 1 */
 .home-container-1 {
   display: flex;
@@ -708,23 +700,21 @@ a {
 
 /* HOME CONTAINER 2 */
 .home-container-2 {
-  height: auto;
+  height: 100vh;
   /* background-color: blue; */
   display: flex;
-  flex-direction: column;
-  margin-bottom: 7rem;
+  flex-direction: row;
+  align-items: center;
 }
 
 .home-h2-1 {
   margin-left: 4rem;
-  font-size: 7rem;
 }
 
 .home-h2-2 {
   -webkit-text-stroke: 2px #010100;
   color: #F6F6F7;
   margin-left: 4rem;
-  font-size: 7rem;
 }
 
 
@@ -735,23 +725,48 @@ a {
 .home-card {
   /* border: solid 1px black; */
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   height: auto;
-  margin: 4rem 4rem;
+  padding-left: 8rem;
+  padding-right: 12rem;
+  justify-content: space-around;
+  align-items: center;
 }
 
 
 .home-card img {
-  width: 450px;
+  width: 500px;
   height: auto;
 }
 
 .home-card h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
+  font-size: 6.5rem;
+  font-weight: 600;
+  font-family: 'Ubuntu';
+}
+
+.home-card h3 {
+  font-size: 3rem;
+  padding-bottom: 4rem;
+  font-family: 'Ubuntu';
+  text-transform: uppercase;
 }
 
 .home-card p {
-  font-size: 2rem;  
+  padding-right: 5rem;
+  font-size: 2rem;
+}
+
+.left {
+  width: 50%;
+}
+
+.section-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-weight: 900;
 }
 
 .flex-container {
@@ -773,7 +788,7 @@ a {
 }
 
 .images img {
-  height: 350px;
+  height: 300px;
   width: auto;
   background-color: #F6F6F7;
   border: solid 1px #010100;
@@ -781,60 +796,56 @@ a {
 
 /* HOME CONTAINER 4 */
 .individual-project {
-  border: solid 1px #010100;
+  /* border: solid 1px #010100; */
   width: 85vw;
-  margin: 5rem auto 7rem auto;
+  margin: 12rem auto 12rem auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10rem;
 }
 
 .individual-project img {
-  width: 600px;
+  width: 400px;
   height: auto;
 }
 
 .individual-project h2 {
   font-weight: 800;
-  font-size: 6rem;
   text-transform: uppercase;
-  padding-top: 5rem;
-  padding-right: 4rem;
-  padding-left: 4rem;
+  font-size: 7rem;
 }
 
 .individual-project h3 {
   font-weight: 600;
   font-size: 3rem;
   text-transform: uppercase;
-  /* padding-left: 4rem; */
 }
 
 .individual-project p {
+  margin-bottom: 1.5rem;
   font-size: 1.5rem;
-  padding: 0 4rem;
 }
 
 .flex-container-2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 4rem;
-  padding-bottom: 5rem;
+  padding-left: 0;
   gap: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .technologies {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-bottom: 2rem;
+  gap: 4rem;
 }
 
 .technologies p {
   font-weight: 600;
   text-transform: uppercase;
-  padding-bottom: 2rem;
 }
 
 
