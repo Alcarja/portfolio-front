@@ -1,29 +1,40 @@
-import { FaReact } from "react-icons/fa6";
-import { FaNodeJs } from "react-icons/fa6";
-import { FaSchool } from "react-icons/fa6";
-import { FaDumbbell } from "react-icons/fa6";
-import { FaWordpressSimple } from "react-icons/fa6";
-import { FaStackOverflow } from "react-icons/fa6";
-import { FaCalendarDay } from "react-icons/fa6";
-import { FaChartPie } from "react-icons/fa6";
-import { FaBuromobelexperte } from "react-icons/fa6";
+// import { FaReact } from "react-icons/fa6";
+// import { FaNodeJs } from "react-icons/fa6";
+// import { FaSchool } from "react-icons/fa6";
+// import { FaDumbbell } from "react-icons/fa6";
+// import { FaWordpressSimple } from "react-icons/fa6";
+// import { FaStackOverflow } from "react-icons/fa6";
+// import { FaCalendarDay } from "react-icons/fa6";
+// import { FaChartPie } from "react-icons/fa6";
+// import { FaBuromobelexperte } from "react-icons/fa6";
 
 const HomeContainer2 = () => {
   return (
     <>
       <div className="home-container-2">
-        <section>
+        {/* <section>
           <h2 className="home-h2-1">About</h2>
           <h2 className="home-h2-2">Myself</h2>
-        </section>
+        </section> */}
         <div className="home-info">
           <div className="home-card">
             <div className="left">
-              <h2 className="section-title">
-                Jaime Alcaraz - Junior web developer.
-              </h2>
+              <h2 className="section-title">Jaime Alcaraz</h2>
+              <h3> Full Stack Developer</h3>
+              <p>
+                I`m a full stack web developer, transitioned from a background
+                in Food Eingenieering and CrossFit coaching. I`m based in Madrid
+                and I`m looking forward to working as part of a team to bring
+                new ideas to the web. I like simple and concise designs, that
+                get to the point without neglecting UX. I`m ready to bring my
+                easy going and chill personality to a team where I can shine and
+                revolutionize the browser!{" "}
+              </p>
+            </div>
+            <div className="right">
+              <img src="https://source.unsplash.com/3tYZjGSBwbk" alt="" />
 
-              <div className="flex-container">
+              {/* <div className="flex-container">
                 <FaReact size={28} />
                 <p>Graduate of IronHack full-time web development boot camp.</p>
               </div>
@@ -82,10 +93,7 @@ const HomeContainer2 = () => {
               <div className="flex-container">
                 <FaBuromobelexperte size={28} />
                 <p>Open to collaboration on exciting digital projects.</p>
-              </div>
-            </div>
-            <div className="right">
-              <img src="https://source.unsplash.com/3tYZjGSBwbk" alt="" />
+              </div> */}
             </div>
           </div>
         </div>
