@@ -332,7 +332,8 @@ a, p {
   }
   
   .project-description-left h5 {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
     font-size: 0.8rem;
     font-weight: 500;
   }
@@ -345,8 +346,6 @@ a, p {
   .image {
     width: 300px;
     height: auto;
-    align-self: center;
-    padding-left: 2.5rem;
   }
   
 }
