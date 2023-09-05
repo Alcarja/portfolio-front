@@ -23,7 +23,7 @@ const HomeContainer2 = () => {
               <h3> Full Stack Developer</h3>
               <p>
                 I`m a full stack web developer, transitioned from a background
-                in Food Eingenieering and CrossFit coaching. I`m based in Madrid
+                in Food Engenieering and CrossFit coaching. I`m based in Madrid
                 and I`m looking forward to working as part of a team to bring
                 new ideas to the web. I like simple and concise designs, that
                 get to the point without neglecting UX. I`m ready to bring my
