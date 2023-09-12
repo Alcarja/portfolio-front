@@ -577,6 +577,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  line-height: 2;
 }
 
 .project-title h2 {
