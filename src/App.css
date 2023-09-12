@@ -577,7 +577,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  line-height: 3.5;
 }
 
 .project-title h2 {
@@ -585,7 +584,8 @@ a {
   font-weight: 900;
   margin-left: 3rem;
   margin-bottom: 0;
-  line-height: 0.5;
+  line-height: 0.8;
+
 }
 
 .project-title p {
