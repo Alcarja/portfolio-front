@@ -2,11 +2,7 @@ const HomeContainer3 = () => {
   return (
     <>
       <div className="home-container-3">
-        <section>
-          <h2 className="home-h2-1">Used</h2>
-          <h2 className="home-h2-2">stack</h2>
-        </section>
-        <div className="images">
+        <div className="img">
           <img src="images/js-logo.png" />
           <img src="images/react-logo.png" />
           <img src="images/html-logo.png" />
