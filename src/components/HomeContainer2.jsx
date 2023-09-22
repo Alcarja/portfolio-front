@@ -4,7 +4,7 @@ const HomeContainer2 = () => {
       <div className="home-container-two">
         <h2>Why Web Development?</h2>
         <p>
-          I think creating something from nothing is one of the greatest things
+          I think creating something from scratch is one of the greatest things
           that can be done.
         </p>
         <p>
