@@ -9,6 +9,7 @@ const HomeContainer1 = () => {
               <h2>Jaime Alcaraz</h2>
               <h3>Full Stack Developer</h3>
             </div>
+
             <div className="card-left-2">
               <p>
                 My name is Jaime Alcaraz. I am an enthusiast Full Stack

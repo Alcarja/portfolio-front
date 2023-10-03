@@ -6,6 +6,7 @@ import HomeContainer1 from "../components/HomeContainer1";
 import HomeContainer2 from "../components/HomeContainer2";
 import HomeContainer3 from "../components/HomeContainer3";
 import HomeContainer4 from "../components/HomeContainer4";
+import About from "../components/About/About";
 
 const HomePage = () => {
   const [projects, setProjects] = useState([]);
@@ -31,6 +32,8 @@ const HomePage = () => {
       <HomeContainer1 />
 
       <HomeContainer2 />
+
+      <About />
 
       <HomeContainer3 />
 

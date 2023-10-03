@@ -1,0 +1,21 @@
+.button {
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    background-color: #010100;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: white;
+  border: 1px solid #010100;
+  transition-duration: 0.2s;
+    }
+  }
+
+  .button a {
+    color: white;
+
+    &:hover {
+        color: #010100;
+      
+    }
+  }
