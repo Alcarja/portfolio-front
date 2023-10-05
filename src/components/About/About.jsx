@@ -5,22 +5,22 @@ const abouts = [
   {
     title: "Frontend Development",
     description: "Frontend development using React and SCSS",
-    imgUrl: "/public/images/About-FronEnd.jpeg",
+    imgUrl: "images/About-FronEnd.jpeg",
   },
   {
     title: "Backend Development",
     description: "Backend development using Express, Node and MongoDB",
-    imgUrl: "/public/images/about02.png",
+    imgUrl: "images/about02.png",
   },
   {
     title: "UX / UI",
     description: "Responsive and entracing designs",
-    imgUrl: "/public/images/About-UX:UI.jpg",
+    imgUrl: "images/About-UX:UI.jpg",
   },
   {
     title: "Rest API",
     description: "Use of Rest APIs to develop (Axios and Fetch)",
-    imgUrl: "/public/images/About-Rest-API.jpg",
+    imgUrl: "images/About-Rest-API.jpg",
   },
 ];
 
