@@ -2,11 +2,11 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 import { API_URL } from "../config/config.index";
-import HomeContainer1 from "../components/HomeContainer1";
 import HomeContainer2 from "../components/HomeContainer2";
 import About from "../components/About/About";
 import Work from "../components/Work/Work";
 import Stack from "../components/Stack/Stack";
+import Home from "../components/Home/Home";
 
 const HomePage = () => {
   const [projects, setProjects] = useState([]);
@@ -29,7 +29,7 @@ const HomePage = () => {
 
   return (
     <>
-      <HomeContainer1 />
+      <Home />
 
       <HomeContainer2 />
 
