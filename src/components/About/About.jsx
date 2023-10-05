@@ -9,7 +9,7 @@ const abouts = [
   },
   {
     title: "Backend Development",
-    description: "Backend development using Express, Node and MongoDB",
+    description: "Backend development using Express, Node, MongoDB and Sanity",
     imgUrl: "images/about02.png",
   },
   {
@@ -31,8 +31,8 @@ const About = () => {
     <>
       <div className="app__about">
         <h2 className="head-text">
-          I know that <span>Good Dev</span> <br /> means{" "}
-          <span>Good Business</span>
+          Making <span>Good Apps</span> <br /> with the
+          <span> Best Technology</span>
         </h2>
 
         <div className="app__profiles">

@@ -13,7 +13,7 @@ const Nav = () => {
       <nav className="app__navbar">
         <div className="app__navbar-logo">
           <Link to="/">
-            <h1>Jaime Alcaraz</h1>
+            <h1>J.A.</h1>
           </Link>
         </div>
 

@@ -49,7 +49,7 @@ const Projects = () => {
   return (
     <div className="app__work">
       <h2 className="app__work-title">
-        Portfolio <span>Section</span>
+        Previous <span>Projects</span>
       </h2>
       <div className="app__work-filter">
         {[

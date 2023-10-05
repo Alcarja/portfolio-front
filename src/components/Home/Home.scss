@@ -100,7 +100,6 @@
     border-radius: 1rem;
     background-color: #0692D6;
     text-transform: uppercase;
-    font-size: 1.2rem;
 
     display: flex;
     align-items: center;
@@ -109,16 +108,17 @@
 
     a {
         color: black;
+        font-weight: 600;
     
         &:hover {
-            color: #0692D6;
+            color: white;
           
         }
       }
 
     &:hover {
-      background-color: black;
-      border: 1px solid #010100;
+      background-color: #0692D6;
+      border: 1px solid white;
       transition-duration: 0.2s;
     }
 

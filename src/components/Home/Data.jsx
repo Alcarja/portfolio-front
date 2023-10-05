@@ -7,7 +7,7 @@ const Data = () => {
         <h1 className="app__home-title">Jaime Alcaraz</h1>
         <h3 className="app__home-subtitle">Web Developer</h3>
         <p className="app__home-description">
-          I`m a creative designer based in Madrid, very dedicated and passioante
+          I`m a creative designer based in Madrid, very dedicated and passionate
           about my work
         </p>
 

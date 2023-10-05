@@ -2,7 +2,9 @@ const HomeContainer2 = () => {
   return (
     <>
       <div className="home-container-two">
-        <h2>Why Web Development?</h2>
+        <h2>
+          Why Web <span> Development?</span>{" "}
+        </h2>
         <p>
           I think creating something from scratch is one of the greatest things
           that can be done.

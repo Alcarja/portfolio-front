@@ -172,6 +172,10 @@ a, p {
     padding-bottom: 2rem;
     color: white;
   }
+
+  .home-container-two span {
+    color: #0692D6;
+  }
   
   .home-container-two p {
     color: white;
@@ -365,9 +369,13 @@ a, p {
   
   .home-container-two h2 {
     font-size: 6rem;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 3rem;
     color: white;
+  }
+
+  .home-container-two span {
+    color: #0692D6;
   }
   
   .home-container-two p {
