@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { HiMiniCodeBracket } from "react-icons/hi2";
 import { API_URL } from "../../config/config.index";
 import "./ProjectDetailsPage.scss";
 

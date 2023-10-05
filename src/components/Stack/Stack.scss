@@ -1,0 +1,44 @@
+.app__stack-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+
+    @media screen and (max-width: 400px) {
+        height: auto;
+        margin: 0;
+        padding: 3rem;
+        margin-bottom: 8rem;
+    }
+  }
+  
+  .app__stack-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+
+    img {
+        height: 190px;
+        width: auto;
+        background-color: #F6F6F7;
+        border: solid 1px #010100;
+        border-radius: 10px;
+        box-shadow: 4px 4px 0 0 black;
+        transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transitions */
+        
+        &:hover {
+            transform: translate(0, 4px); 
+            box-shadow: 8px 8px 0 0 black;
+        }
+
+        @media screen and (max-width: 400px) {
+            height: 110px;
+        }
+    }
+  }
+  
+
+  
+ 

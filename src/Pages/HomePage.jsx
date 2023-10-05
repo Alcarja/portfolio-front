@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import { API_URL } from "../config/config.index";
 import HomeContainer1 from "../components/HomeContainer1";
 import HomeContainer2 from "../components/HomeContainer2";
-import HomeContainer3 from "../components/HomeContainer3";
 import About from "../components/About/About";
 import Work from "../components/Work/Work";
+import Stack from "../components/Stack/Stack";
 
 const HomePage = () => {
   const [projects, setProjects] = useState([]);
@@ -35,7 +35,7 @@ const HomePage = () => {
 
       <About />
 
-      <HomeContainer3 />
+      <Stack />
 
       <Work />
 
