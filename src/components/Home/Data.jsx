@@ -12,7 +12,7 @@ const Data = () => {
         </p>
 
         <button className="app__home-button">
-          <a href="#">Say Hello</a>
+          <a href="mailto:jaime.alcarazc@gmail.com">Say Hello</a>
           <CiMail />
         </button>
       </div>
